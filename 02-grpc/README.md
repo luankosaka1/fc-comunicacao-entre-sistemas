@@ -97,7 +97,7 @@ CLient -> Request, Request, Request -> Server -> Response, Response, Response ->
 
 ```
 sudo apt install protobuf-compiler 
-brew install protobuf #Mac, requer Homebrew instalado
+brew install protobuf Mac, requer Homebrew instalado
 ```
 
 ```
@@ -120,3 +120,5 @@ Execute o comando abaixo para atualizar seu terminal:
 ```
 source ~/.bashrc
 ```
+
+reference: https://go.dev/doc/install
