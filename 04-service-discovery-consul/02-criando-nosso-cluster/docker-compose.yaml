@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  consulserver01:
+    image: consul:1.10
+    container_name: fullcycle_consulserver01
+    hostname: consulserver01
+    command: ['tail', '-f', '/dev/null']
+  consulserver02:
+    image: consul:1.10
+    container_name: fullcycle_consulserver02
+    hostname: consulserver02
+    command: ['tail', '-f', '/dev/null']
+  consulserver03:
+    image: consul:1.10
+    container_name: fullcycle_consulserver03
+    hostname: consulserver03
+    command: ['tail', '-f', '/dev/null']
