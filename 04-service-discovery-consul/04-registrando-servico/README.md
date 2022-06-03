@@ -59,3 +59,10 @@ Criar a pasta servers e seu respectivo arquivo
 docker exec -it consulserver01 sh
 consul agent -config-dir=/etc/consul.d
 ```
+
+## Trabalhando com criptografia
+
+```
+docker exec -it consulserver01 sh
+consul keygen
+```
