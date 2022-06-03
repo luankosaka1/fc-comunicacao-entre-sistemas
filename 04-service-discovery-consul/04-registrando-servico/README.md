@@ -62,6 +62,8 @@ consul agent -config-dir=/etc/consul.d
 
 ## Trabalhando com criptografia
 
+Gerando chave
+
 ```
 docker exec -it consulserver01 sh
 consul keygen
