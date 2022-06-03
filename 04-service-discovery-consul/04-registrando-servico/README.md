@@ -68,3 +68,8 @@ Gerando chave
 docker exec -it consulserver01 sh
 consul keygen
 ```
+
+## User Interface e dicas para produção
+
+- Configurar no arquivo servers/server01/server.json
+- Liberar a porta 8500 no docker (consulserver01)

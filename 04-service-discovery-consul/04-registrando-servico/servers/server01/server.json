@@ -4,5 +4,9 @@
     "bootstrap_expect": 3, // quantidade de server criados
     "data_dir": "/tmp", // local que armazena os arquivos do consul
     "node_name": "consulserver01",
-    "encrypt": "gerar a chave dentro do docker consulserver2"
+    "encrypt": "gerar a chave dentro do docker consulserver2",
+    "client_addr": "0.0.0.0",
+    "ui_config": {
+        "enabled": true
+    }
 }
