@@ -50,3 +50,12 @@ vim /usr/share/nginx/html/index.html # add Hello
 vim /etc/nginx/config.d/default.conf # add 'root /usr/share/nginx/html'
 nginx -s reload
 ```
+
+## Sincronizando servers via arquivo
+
+Criar a pasta servers e seu respectivo arquivo
+
+```
+docker exec -it consulserver01 sh
+consul agent -config-dir=/etc/consul.d
+```

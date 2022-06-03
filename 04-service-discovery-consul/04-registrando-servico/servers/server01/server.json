@@ -1,0 +1,7 @@
+{
+    "server": true,
+    "bind_addr": "", // ip do server 1
+    "bootstrap_expect": 3, // quantidade de server criados
+    "data_dir": "/tmp", // local que armazena os arquivos do consul
+    "retry_join": ["ip do server 2", "ip do server 3"]
+}
