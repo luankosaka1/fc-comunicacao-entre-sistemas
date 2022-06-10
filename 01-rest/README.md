@@ -52,7 +52,7 @@ Content-Lenght: ...
 
 ### HTTP Method Negotiation
 
-- HTTP possui um outro método: OPTIONS. Esse método nos permite informar quais métodos são permitidos ou não em determinado recurso.
+HTTP possui um outro método: OPTIONS. Esse método nos permite informar quais métodos são permitidos ou não em determinado recurso.
 
 OPTIONS /api/product HTTP/1.1
 Host: domain.com.br
