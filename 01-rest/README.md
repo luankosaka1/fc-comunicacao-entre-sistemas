@@ -74,7 +74,7 @@ O server então retornará ou não a informação no formato desejado.
 
 #### Accept Negotiation
 
-- Client solicita a informação e o tipo de retorno pelo server baseado no media type informado por ordem de prioridade
+Client solicita a informação e o tipo de retorno pelo server baseado no media type informado por ordem de prioridade
 
 GET /product
 Accept: application/json
@@ -84,7 +84,7 @@ HTTP/1.1 406 Not Acceptable
 
 #### Content-Type Negotiation
 
-- Client solicita a informação e o tipo de retorno pelo server baseado no media type informado por ordem de prioridade
+Client solicita a informação e o tipo de retorno pelo server baseado no media type informado por ordem de prioridade
 
 POST /product HTTP/1.1
 Accept: application/json
